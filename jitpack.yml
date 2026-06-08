@@ -1,2 +1,5 @@
 jdk:
   - openjdk17
+before_install:
+  - yes | sdkmanager --licenses
+  - yes | sdkmanager "platforms;android-35" "build-tools;35.0.0" "ndk;28.0.12433566" "cmake;3.22.1"
