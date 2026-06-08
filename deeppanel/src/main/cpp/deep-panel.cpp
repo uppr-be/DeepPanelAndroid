@@ -1,3 +1,4 @@
+#include <climits>
 #include <stdlib.h>
 #include "deep-panel.hpp"
 #include "connected-components.hpp"
